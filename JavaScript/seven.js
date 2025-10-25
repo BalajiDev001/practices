@@ -13,5 +13,6 @@ let employees=
 for(let emp of employees){
     // console.log(emp)
     // console.log(emp.ename)
-    console.log(emp.ename,emp.gender,emp.eid)
+    // console.log(emp.ename,emp.gender,emp.eid)
+    console.log(`employee ename =${emp.ename} and employee gender = ${emp.gender}`)
 }
