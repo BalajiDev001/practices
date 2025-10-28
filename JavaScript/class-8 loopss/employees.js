@@ -1,0 +1,78 @@
+let employees=
+[{"eid":1,"ename":"Saw","gender":"Male"},
+{"eid":2,"ename":"Lilyan","gender":"Female"},
+{"eid":3,"ename":"Debor","gender":"Female"},
+{"eid":4,"ename":"Raquel","gender":"Genderqueer"},
+{"eid":5,"ename":"Onida","gender":"Female"},
+{"eid":6,"ename":"Randy","gender":"Female"},
+{"eid":7,"ename":"Hildagarde","gender":"Bigender"},
+{"eid":8,"ename":"Kingsly","gender":"Male"},
+{"eid":9,"ename":"Northrop","gender":"Male"},
+{"eid":10,"ename":"Rodina","gender":"Female"},
+{"eid":11,"ename":"Lorraine","gender":"Female"},
+{"eid":12,"ename":"Gene","gender":"Female"},
+{"eid":13,"ename":"Worden","gender":"Male"},
+{"eid":14,"ename":"Dolley","gender":"Female"},
+{"eid":15,"ename":"Wilek","gender":"Male"},
+{"eid":16,"ename":"Delmar","gender":"Male"},
+{"eid":17,"ename":"Hercule","gender":"Male"},
+{"eid":18,"ename":"Constantina","gender":"Female"},
+{"eid":19,"ename":"Poul","gender":"Male"},
+{"eid":20,"ename":"Kaye","gender":"Female"},
+{"eid":21,"ename":"Silvio","gender":"Male"},
+{"eid":22,"ename":"Sheff","gender":"Male"},
+{"eid":23,"ename":"Reagen","gender":"Male"},
+{"eid":24,"ename":"Maddy","gender":"Male"},
+{"eid":25,"ename":"Philipa","gender":"Female"},
+{"eid":26,"ename":"Franky","gender":"Male"},
+{"eid":27,"ename":"Roseanne","gender":"Female"},
+{"eid":28,"ename":"Celestyna","gender":"Female"},
+{"eid":29,"ename":"Tabina","gender":"Female"},
+{"eid":30,"ename":"Carlynne","gender":"Female"},
+{"eid":31,"ename":"Boigie","gender":"Genderqueer"},
+{"eid":32,"ename":"Sena","gender":"Female"},
+{"eid":33,"ename":"Mohammed","gender":"Polygender"},
+{"eid":34,"ename":"Bryn","gender":"Male"},
+{"eid":35,"ename":"Mitchel","gender":"Male"},
+{"eid":36,"ename":"Ulrich","gender":"Male"},
+{"eid":37,"ename":"Ash","gender":"Male"},
+{"eid":38,"ename":"Loella","gender":"Female"},
+{"eid":39,"ename":"Dunn","gender":"Male"},
+{"eid":40,"ename":"Edouard","gender":"Male"},
+{"eid":41,"ename":"Lind","gender":"Male"},
+{"eid":42,"ename":"Janette","gender":"Female"},
+{"eid":43,"ename":"Laverne","gender":"Female"},
+{"eid":44,"ename":"Jakie","gender":"Male"},
+{"eid":45,"ename":"Shawn","gender":"Female"},
+{"eid":46,"ename":"Brady","gender":"Male"},
+{"eid":47,"ename":"Addy","gender":"Non-binary"},
+{"eid":48,"ename":"Merill","gender":"Male"},
+{"eid":49,"ename":"Kendal","gender":"Male"},
+{"eid":50,"ename":"Andee","gender":"Female"}]
+
+
+
+for(let i=0; i<employees.length; i++)
+    for(let emp of employees){
+console.log(employees([i],ename))
+    }
+
+
+// console.log(employees)
+// console.log(typeof(employees))
+
+// let i=0; // initialization
+// while(i<employees-1){     // cond st
+//     console.log(employees[i].ename)
+//     i++;                //incr/decr
+// }
+
+// let male_employees=0;
+// let j=0;
+// while(j<=employees.length-1){
+//     if(employees[j].gender==='male'){
+//         //male_employees=male_employees+1;
+//         male_employees++;
+//     }
+//     j++;
+// }

@@ -1,0 +1,14 @@
+28-10-25(tuesday):
+
+statemennts 
+1.var( contains properties) 2.function(we called as methods) 3.clss(properties & methods) 4.object
+
+
+
+ex: group of statemennts for specific purpose
+
+function login(){
+clg('gm')
+}
+login()
+
